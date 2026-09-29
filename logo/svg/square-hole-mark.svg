@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Square Hole</title>
+  <defs>
+    <linearGradient id="shm-face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1D2B46"/>
+      <stop offset="1" stop-color="#0B111D"/>
+    </linearGradient>
+    <linearGradient id="shm-gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".09"/>
+      <stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shm-rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C4B2FF" stop-opacity=".8"/>
+      <stop offset=".5" stop-color="#6D4AE2" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#6D4AE2" stop-opacity=".6"/>
+    </linearGradient>
+    <radialGradient id="shm-spill" cx=".5" cy=".5" r=".5">
+      <stop offset=".45" stop-color="#A78BFA" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shm-well" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1D3A"/>
+      <stop offset=".6" stop-color="#05070C"/>
+    </linearGradient>
+    <filter id="shm-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="shm-soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#shm-face)"/>
+  <rect width="256" height="256" rx="58" fill="url(#shm-gloss)"/>
+  <rect x="20" y="20" width="216" height="216" fill="url(#shm-spill)"/>
+  <rect x="1.5" y="1.5" width="253" height="253" rx="56.5" fill="none" stroke="url(#shm-rim)" stroke-width="3"/>
+  <rect x="76" y="76" width="104" height="104" rx="6" fill="url(#shm-well)"/>
+  <rect x="71" y="71" width="114" height="114" rx="11" fill="none" stroke="#A78BFA" stroke-width="10" filter="url(#shm-glow)"/>
+  <rect x="71" y="71" width="114" height="114" rx="11" fill="none" stroke="#A78BFA" stroke-width="10"/>
+  <rect x="71" y="71" width="114" height="114" rx="11" fill="none" stroke="#F4F0FF" stroke-width="3.5" filter="url(#shm-soft)"/>
+</svg>

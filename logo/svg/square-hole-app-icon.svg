@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Square Hole</title>
+  <defs>
+    <linearGradient id="sha-face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1D2B46"/>
+      <stop offset="1" stop-color="#0B111D"/>
+    </linearGradient>
+    <radialGradient id="sha-spill" cx=".5" cy=".5" r=".5">
+      <stop offset=".45" stop-color="#A78BFA" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sha-well" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A1D3A"/>
+      <stop offset=".6" stop-color="#05070C"/>
+    </linearGradient>
+    <filter id="sha-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="sha-soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.1"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" fill="url(#sha-face)"/>
+  <rect x="20" y="20" width="216" height="216" fill="url(#sha-spill)"/>
+  <rect x="76" y="76" width="104" height="104" rx="6" fill="url(#sha-well)"/>
+  <rect x="71" y="71" width="114" height="114" rx="11" fill="none" stroke="#A78BFA" stroke-width="10" filter="url(#sha-glow)"/>
+  <rect x="71" y="71" width="114" height="114" rx="11" fill="none" stroke="#A78BFA" stroke-width="10"/>
+  <rect x="71" y="71" width="114" height="114" rx="11" fill="none" stroke="#F4F0FF" stroke-width="3.5" filter="url(#sha-soft)"/>
+</svg>

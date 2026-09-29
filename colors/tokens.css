@@ -1,0 +1,46 @@
+/*
+ * Square Hole brand tokens (dark theme). Generated from colors/tokens.json by scripts/tokens.mjs; do not edit.
+ * The --sh-* names match the Square Hole app, so this file drops into the app or any page that uses its styles.
+ * Contrast of every listed pair is computed in colors/README.md.
+ */
+:root {
+  color-scheme: dark;
+
+  /* Colour */
+  --sh-canvas: #080D16; /* canvas (Navy) */
+  --sh-surface: #111B29; /* surface */
+  --sh-surface-raised: #18253A; /* surface-raised */
+  --sh-panel-top: #142033; /* panel-top */
+  --sh-selected: #241E4F; /* selected */
+  --sh-border: #30415D; /* border */
+  --sh-border-strong: #63769B; /* border-strong */
+  --sh-text: #F3F5FB; /* text */
+  --sh-text-secondary: #B5C0D5; /* text-secondary */
+  --sh-text-muted: #899AB6; /* text-muted */
+  --sh-accent: #A78BFA; /* accent (Lavender) */
+  --sh-action: #6D4AE2; /* action (Violet) */
+  --sh-action-hover: #5B39D0; /* action-hover */
+  --sh-on-action: #FFFFFF; /* on-action */
+  --sh-brand-glow: #C4B2FF; /* glow (Glow) */
+  --sh-brand-neon-core: #F4F0FF; /* neon-core */
+  --sh-brand-tile-top: #1D2B46; /* tile-top */
+  --sh-brand-tile-bottom: #0B111D; /* tile-bottom */
+  --sh-brand-hole-lining: #2A1D3A; /* hole-lining */
+  --sh-brand-hole: #05070C; /* hole */
+  --sh-positive: #62DCA3; /* positive */
+  --sh-negative: #FF8CA8; /* negative */
+  --sh-warning: #FFD17A; /* warning */
+
+  /* Type (no font file here: load Plus Jakarta Sans yourself, see typography/README.md) */
+  --sh-font: 'Plus Jakarta Sans Variable', 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --sh-weight-wordmark: 750;
+  --sh-weight-bold: 700;
+  --sh-weight-medium: 550;
+  --sh-weight-regular: 400;
+  --sh-tracking-wordmark: -0.02em;
+
+  /* Radius */
+  --sh-radius-card: 16px;
+  --sh-radius-control: 10px;
+  --sh-radius-mark: 22.66%;
+}

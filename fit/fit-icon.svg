@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="FIT token icon">
+  <!-- Rim and hole lip, #6D4AE2: the whole disc with the square hole cut out (evenodd, the hole stays transparent). -->
+  <path fill="#6D4AE2" fill-rule="evenodd" d="M128 0a128 128 0 1 1 0 256a128 128 0 1 1 0-256ZM80 76h96a4 4 0 0 1 4 4v96a4 4 0 0 1-4 4H80a4 4 0 0 1-4-4V80a4 4 0 0 1 4-4Z"/>
+  <!-- Face, #A78BFA: the disc inside the 20-unit rim, minus the hole and its 10-unit lip. -->
+  <path fill="#A78BFA" fill-rule="evenodd" d="M128 20a108 108 0 1 1 0 216a108 108 0 1 1 0-216ZM80 66h96a14 14 0 0 1 14 14v96a14 14 0 0 1-14 14H80a14 14 0 0 1-14-14V80a14 14 0 0 1 14-14Z"/>
+</svg>

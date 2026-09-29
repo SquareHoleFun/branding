@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "name": "FIT token icon",
+  "description": "The FIT token icon: a lavender round coin with an axis-aligned square hole (DECISION-LOG F20). Not wired into the app yet; trademark screen still open.",
+  "generator": {
+    "command": "node scripts/fit-icon/build.mjs",
+    "chromium": "153.0.8010.12",
+    "gl": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "three": "0.186.1",
+    "playwright": "1.63.0",
+    "note": "Hand-authored SVGs are the source; PNGs are rendered from them (16, 24 px) or from render/coin.mjs (32 px and up). Another Chromium build may change PNG bytes."
+  },
+  "colours": {
+    "face": "#A78BFA",
+    "rim": "#6D4AE2",
+    "glow": "#C4B2FF",
+    "appBackground": "#080D16"
+  },
+  "geometry": {
+    "grid": 256,
+    "coinDiameter": 256,
+    "rim": 20,
+    "holeLip": 10,
+    "holeSide": 104,
+    "holeCornerRadius": 4,
+    "holeShareOfDiameter": "0.406"
+  },
+  "files": [
+    {
+      "path": "favicon/apple-touch-icon.png",
+      "kind": "png-app",
+      "width": 180,
+      "height": 180,
+      "bytes": 24230,
+      "sha256": "2ace5284b7f14cd90e48377c7f17d999f9a24484dc4e48a2dca7258799ae1bf6",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "iOS home screen, 180 px, opaque #080D16"
+    },
+    {
+      "path": "favicon/favicon.ico",
+      "kind": "ico",
+      "bytes": 6715,
+      "sha256": "f7c3377989a10d4dd374209aee4c9ac66255b7fe2b45477aae6b38ff4671961c",
+      "source": "fit-icon-16.png + fit-icon-32.png + fit-icon-48.png",
+      "use": "Browser favicon (16, 32, 48)"
+    },
+    {
+      "path": "favicon/favicon.svg",
+      "kind": "svg-favicon",
+      "bytes": 525,
+      "sha256": "25c2ead9b2a1f3034aa57e50cb72ba3b1b231b7cf87e1585da0101faa58c8253",
+      "source": "fit-icon-16.svg",
+      "use": "Vector favicon (crisp at 16 and 32 px)"
+    },
+    {
+      "path": "favicon/icon-192.png",
+      "kind": "png-app",
+      "width": 192,
+      "height": 192,
+      "bytes": 35833,
+      "sha256": "de4c27c8bf01f5d212a053f1d11c69b1d221a4a01a20439a33f18114d8f72256",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "Web app manifest 192 px, transparent"
+    },
+    {
+      "path": "favicon/icon-maskable-512.png",
+      "kind": "png-app",
+      "width": 512,
+      "height": 512,
+      "bytes": 108016,
+      "sha256": "ada1c49fe748edb32e8f40a31a98351a7647c134c19c45a609af2a4838ea7f9a",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "Web app manifest maskable 512 px, opaque #080D16, coin inside the 80% safe zone"
+    },
+    {
+      "path": "fit-icon-1024.png",
+      "kind": "png-3d",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 462781,
+      "sha256": "867e54e19fb3ac81f3f336c38ffc191c8ed1b2094ae99cf0e8944191cdb67dbd",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "3D master (marketing, large tiles)"
+    },
+    {
+      "path": "fit-icon-128.png",
+      "kind": "png-3d",
+      "width": 128,
+      "height": 128,
+      "bytes": 19001,
+      "sha256": "f9429a91aa659f3697b9aeb1aa48fd369760544fabc35efab2553ebbf9acc033",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "Token lists and UI at 128 px"
+    },
+    {
+      "path": "fit-icon-16.png",
+      "kind": "png-flat",
+      "width": 16,
+      "height": 16,
+      "bytes": 434,
+      "sha256": "f747de1d5c28d01880a09a930a857d22adb4cdcc8ab2a563cb3111d7aa187f40",
+      "source": "fit-icon-16.svg",
+      "use": "Token lists and favicons at 16 px"
+    },
+    {
+      "path": "fit-icon-16.svg",
+      "kind": "svg-16",
+      "bytes": 525,
+      "sha256": "25c2ead9b2a1f3034aa57e50cb72ba3b1b231b7cf87e1585da0101faa58c8253",
+      "source": "hand-authored",
+      "use": "Pixel hint for exactly 16 px (16 grid, hinted at 16 and 32 px)"
+    },
+    {
+      "path": "fit-icon-24.png",
+      "kind": "png-flat",
+      "width": 24,
+      "height": 24,
+      "bytes": 571,
+      "sha256": "b4c24c33b88f80138e72837e707f8c68dd816d0bdca52b4514c3ae57739e8f0b",
+      "source": "fit-icon-small.svg",
+      "use": "Token lists at 24 px"
+    },
+    {
+      "path": "fit-icon-256.png",
+      "kind": "png-3d",
+      "width": 256,
+      "height": 256,
+      "bytes": 56364,
+      "sha256": "7ab41d4ae6847723e09ff9a785e6dc2fe504d328fb3eb88896a98b70f6bfc430",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "Token lists and UI at 256 px"
+    },
+    {
+      "path": "fit-icon-32.png",
+      "kind": "png-3d",
+      "width": 32,
+      "height": 32,
+      "bytes": 2170,
+      "sha256": "522825b5fe7adf7c214725fc9c7dd847caa116620bb18ec3b1912f771ff5dd42",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "Token lists and UI at 32 px"
+    },
+    {
+      "path": "fit-icon-48.png",
+      "kind": "png-3d",
+      "width": 48,
+      "height": 48,
+      "bytes": 4057,
+      "sha256": "1eb7b986e1e24eb7f77ff1a7ebbbe8fae394eedd07d6025bea902971e8508d36",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "Token lists and UI at 48 px"
+    },
+    {
+      "path": "fit-icon-512.png",
+      "kind": "png-3d",
+      "width": 512,
+      "height": 512,
+      "bytes": 163399,
+      "sha256": "ab4b06835172a01b1c7214f00af8bb10a52cd55fb0abc714b7d18e4108cacd16",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "Token lists and UI at 512 px"
+    },
+    {
+      "path": "fit-icon-64.png",
+      "kind": "png-3d",
+      "width": 64,
+      "height": 64,
+      "bytes": 6346,
+      "sha256": "1350699f3a52e87548a1a69159c38c11533bc67817000e806b71b1f5ad962cd8",
+      "source": "scripts/fit-icon/render/coin.mjs",
+      "use": "Token lists and UI at 64 px"
+    },
+    {
+      "path": "fit-icon-mono.svg",
+      "kind": "svg-mono",
+      "bytes": 426,
+      "sha256": "8a32afd48ef3328d25b0bc587e0d94c09c38dee8a4327228210ca8efb556d2fd",
+      "source": "hand-authored",
+      "use": "One colour (currentColor): lavender on navy, navy on white, white"
+    },
+    {
+      "path": "fit-icon-small.svg",
+      "kind": "svg-small",
+      "bytes": 563,
+      "sha256": "cf7a807e63dac7f9e8972167a6e0253546e8d89750de7fbb398f1fef4722443b",
+      "source": "hand-authored",
+      "use": "Simplified vector for 16 to 24 px (24 grid, hinted at 24 and 48 px)"
+    },
+    {
+      "path": "fit-icon.svg",
+      "kind": "svg-master",
+      "bytes": 711,
+      "sha256": "2aa8e531b2837be0a979b85b772ae4a5f286bbbd19b3d1be36804c146da69c93",
+      "source": "hand-authored",
+      "use": "Two-tone vector master (256 grid): marketing, docs, any size from 32 px"
+    },
+    {
+      "path": "preview.png",
+      "kind": "preview",
+      "width": 1720,
+      "height": 3740,
+      "bytes": 1396004,
+      "sha256": "b9d7d2ef765760e265edbceb2cde149fc2b52e598ece7e815ba477dfa0e3955d",
+      "source": "scripts/fit-icon/render/sheet.mjs",
+      "use": "Review sheet only, not an asset"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="FIT token icon">
+  <!-- Small master, drawn on the 24 px grid: every straight edge lands on a whole pixel at 24 and 48 px. -->
+  <!-- Rim (2) and hole lip (1), #6D4AE2; the 10 x 10 hole is cut out (evenodd). No inner rim line at this size. -->
+  <path fill="#6D4AE2" fill-rule="evenodd" d="M12 0a12 12 0 1 1 0 24a12 12 0 1 1 0-24ZM7 7v10h10V7Z"/>
+  <path fill="#A78BFA" fill-rule="evenodd" d="M12 2a10 10 0 1 1 0 20a10 10 0 1 1 0-20ZM6 6v12h12V6Z"/>
+</svg>

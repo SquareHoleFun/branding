@@ -1,0 +1,20 @@
+{
+  "name": "@squarehole/branding",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Square Hole brand kit: mark, lockups, colours, type, FIT token icon and GitHub images.",
+  "type": "module",
+  "packageManager": "pnpm@10.29.1",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/tokens.mjs",
+    "check": "node scripts/build.mjs --check && node scripts/tokens.mjs --check",
+    "outline": "python3 scripts/outline_text.py"
+  },
+  "devDependencies": {
+    "@fontsource-variable/plus-jakarta-sans": "5.3.0",
+    "@playwright/test": "1.63.0"
+  }
+}

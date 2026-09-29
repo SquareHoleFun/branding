@@ -1,0 +1,451 @@
+{
+  "schemaVersion": 1,
+  "name": "Square Hole brand kit",
+  "description": "Generated files of the brand kit. Hand-authored sources: logo/svg/square-hole-mark*.svg, logo/svg/square-hole-app-icon.svg, colors/tokens.json.",
+  "generator": {
+    "command": "node scripts/build.mjs",
+    "playwright": "1.63.0",
+    "chromium": "153.0.8010.12",
+    "text": "src/text-paths.json (python3 scripts/outline_text.py)",
+    "font": "Plus Jakarta Sans Version 2.071;gftools[0.9.30] (OFL-1.1), sha256 153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79",
+    "note": "Another Chromium build may change PNG bytes; review logo/preview.png before committing new hashes."
+  },
+  "files": [
+    {
+      "path": "dotgithub/profile/banner.png",
+      "kind": "png-github",
+      "width": 1600,
+      "height": 400,
+      "bytes": 194224,
+      "sha256": "6446852097410ec7b7f7363f428d9c7fcacbaa614ab433615d1dae7fcf5628a5",
+      "source": "github/profile-banner.png",
+      "use": "Copy of the banner for the .github repository"
+    },
+    {
+      "path": "github/org-avatar-500.png",
+      "kind": "png-github",
+      "width": 500,
+      "height": 500,
+      "bytes": 85342,
+      "sha256": "485a9007e7700a91661b12bda6e43a38c7d4bcd51bcf94dd2ebf5bd0d236831b",
+      "source": "logo/svg/square-hole-app-icon.svg",
+      "use": "Organisation avatar (GitHub rounds the corners)"
+    },
+    {
+      "path": "github/profile-banner.png",
+      "kind": "png-github",
+      "width": 1600,
+      "height": 400,
+      "bytes": 194224,
+      "sha256": "6446852097410ec7b7f7363f428d9c7fcacbaa614ab433615d1dae7fcf5628a5",
+      "source": "scripts/lib/compose.mjs",
+      "use": "Banner of the organisation profile README"
+    },
+    {
+      "path": "github/social-preview-branding-1280x640.png",
+      "kind": "png-github",
+      "width": 1280,
+      "height": 640,
+      "bytes": 266534,
+      "sha256": "44f15910ecf5903487da6001cdbdbd08cd19a978bd89662841578d030293cff1",
+      "source": "scripts/lib/compose.mjs",
+      "use": "Social preview of the branding repository"
+    },
+    {
+      "path": "github/social-preview-code-1280x640.png",
+      "kind": "png-github",
+      "width": 1280,
+      "height": 640,
+      "bytes": 272234,
+      "sha256": "70fb08ad7a31b4a6320cd60204b62e7d2699d907a60eac4227809e5ccccfa0c9",
+      "source": "scripts/lib/compose.mjs",
+      "use": "Social preview of the code repository"
+    },
+    {
+      "path": "logo/favicon/apple-touch-icon.png",
+      "kind": "png-app",
+      "width": 180,
+      "height": 180,
+      "bytes": 16060,
+      "sha256": "f99cdb2f965701b06732f982c474bbfc99311c40ac07ef84b29a110bf378333b",
+      "source": "logo/svg/square-hole-app-icon.svg",
+      "use": "iOS home screen 180 px, opaque full-bleed face (iOS rounds the corners)"
+    },
+    {
+      "path": "logo/favicon/favicon.ico",
+      "kind": "ico",
+      "bytes": 4474,
+      "sha256": "08119928f3953b9ba9503536e29f41e4d6096f67572f9b81fff7f5e5b7618470",
+      "source": "square-hole-mark-16.png + square-hole-mark-32.png + square-hole-mark-48.png",
+      "use": "Browser favicon (16, 32, 48)"
+    },
+    {
+      "path": "logo/favicon/favicon.svg",
+      "kind": "svg-favicon",
+      "bytes": 386,
+      "sha256": "47c4fca63ac603a111540e3df4dccb22094a7e4642434cad2dddff572b43c423",
+      "source": "logo/svg/square-hole-mark-16.svg",
+      "use": "Vector favicon (16 grid, crisp at 16 and 32 px)"
+    },
+    {
+      "path": "logo/favicon/icon-192.png",
+      "kind": "png-app",
+      "width": 192,
+      "height": 192,
+      "bytes": 24564,
+      "sha256": "0b68df22521f6e455e9efe0a4242e5f52a82b7a3271e79210fc8cdbf7a5f0f78",
+      "source": "logo/svg/square-hole-mark.svg",
+      "use": "Web app manifest 192 px, transparent corners"
+    },
+    {
+      "path": "logo/favicon/icon-512.png",
+      "kind": "png-app",
+      "width": 512,
+      "height": 512,
+      "bytes": 118359,
+      "sha256": "fc8c1d48e49023be5a55977426598ac2feb70680df33201831f870c41035c103",
+      "source": "logo/svg/square-hole-mark.svg",
+      "use": "Web app manifest 512 px, transparent corners"
+    },
+    {
+      "path": "logo/favicon/icon-maskable-512.png",
+      "kind": "png-app",
+      "width": 512,
+      "height": 512,
+      "bytes": 90159,
+      "sha256": "7b331eea5886b8e6ba243384cd49c71280fc2ebab102a2958f53c9e999f46dfe",
+      "source": "logo/svg/square-hole-app-icon.svg",
+      "use": "Web app manifest maskable 512 px, opaque, hole inside the 80% safe zone"
+    },
+    {
+      "path": "logo/favicon/site.webmanifest",
+      "kind": "webmanifest",
+      "bytes": 487,
+      "sha256": "1fda4666031695c25a49ba8f291823e1c332eebe4a25cb64da0edcbc15e5f7a8",
+      "source": "scripts/build.mjs",
+      "use": "Example web app manifest"
+    },
+    {
+      "path": "logo/png/square-hole-lockup-horizontal-on-light@1x.png",
+      "kind": "png-lockup",
+      "width": 1058,
+      "height": 256,
+      "bytes": 59837,
+      "sha256": "bac4bf767e0f84ba625af8e77ec27e97869e5401ed4ba3d8802d4fea8f7c4cfa",
+      "source": "logo/svg/square-hole-lockup-horizontal-on-light.svg",
+      "use": "Lockup at 1×"
+    },
+    {
+      "path": "logo/png/square-hole-lockup-horizontal-on-light@2x.png",
+      "kind": "png-lockup",
+      "width": 2116,
+      "height": 512,
+      "bytes": 169899,
+      "sha256": "8e01471bb0a0e04361e81c58e6ce99eb130a8a3b17d7f99f61c85fb2ca9e9f94",
+      "source": "logo/svg/square-hole-lockup-horizontal-on-light.svg",
+      "use": "Lockup at 2×"
+    },
+    {
+      "path": "logo/png/square-hole-lockup-horizontal@1x.png",
+      "kind": "png-lockup",
+      "width": 1058,
+      "height": 256,
+      "bytes": 59648,
+      "sha256": "5f2956d1361eae4357c1238000d1482b547f84952b20fdd45c338ee830384f56",
+      "source": "logo/svg/square-hole-lockup-horizontal.svg",
+      "use": "Lockup at 1×"
+    },
+    {
+      "path": "logo/png/square-hole-lockup-horizontal@2x.png",
+      "kind": "png-lockup",
+      "width": 2116,
+      "height": 512,
+      "bytes": 169168,
+      "sha256": "2ad15f3acdfc3a1f41ea89faf8791375b7647f76c007265c9b1b92fa895178e3",
+      "source": "logo/svg/square-hole-lockup-horizontal.svg",
+      "use": "Lockup at 2×"
+    },
+    {
+      "path": "logo/png/square-hole-lockup-stacked-on-light@1x.png",
+      "kind": "png-lockup",
+      "width": 544,
+      "height": 404,
+      "bytes": 54170,
+      "sha256": "bd94a4a02a0905b85b97c8f641221b9dd2718dda061b36cc538b9632992d3621",
+      "source": "logo/svg/square-hole-lockup-stacked-on-light.svg",
+      "use": "Lockup at 1×"
+    },
+    {
+      "path": "logo/png/square-hole-lockup-stacked-on-light@2x.png",
+      "kind": "png-lockup",
+      "width": 1088,
+      "height": 807,
+      "bytes": 154581,
+      "sha256": "a7c052bc3d0a8ce2954c7456c26abfb7f88a524e8107c427166e190d789b6c70",
+      "source": "logo/svg/square-hole-lockup-stacked-on-light.svg",
+      "use": "Lockup at 2×"
+    },
+    {
+      "path": "logo/png/square-hole-lockup-stacked@1x.png",
+      "kind": "png-lockup",
+      "width": 544,
+      "height": 404,
+      "bytes": 53869,
+      "sha256": "22e1e421e048525dfb47ed7c5de98df78104d563532d771e01981ccd08eef05e",
+      "source": "logo/svg/square-hole-lockup-stacked.svg",
+      "use": "Lockup at 1×"
+    },
+    {
+      "path": "logo/png/square-hole-lockup-stacked@2x.png",
+      "kind": "png-lockup",
+      "width": 1088,
+      "height": 807,
+      "bytes": 154321,
+      "sha256": "fb4c96fecbe5d586a8dd2a6a71caf3f678eef15c30df6eb32e0e11979e88ca43",
+      "source": "logo/svg/square-hole-lockup-stacked.svg",
+      "use": "Lockup at 2×"
+    },
+    {
+      "path": "logo/png/square-hole-mark-1024.png",
+      "kind": "png-mark",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 380068,
+      "sha256": "40e9577bde40aef59e3e4faef4b2f0ca83187a3d74d5f492e5a7818bd06d3667",
+      "source": "logo/svg/square-hole-mark.svg",
+      "use": "Mark at 1024 px"
+    },
+    {
+      "path": "logo/png/square-hole-mark-128.png",
+      "kind": "png-mark",
+      "width": 128,
+      "height": 128,
+      "bytes": 13217,
+      "sha256": "afa62e46f34e3339c66ecb9aa816c9a056ead5ee006268acebf2bfb4be507b6c",
+      "source": "logo/svg/square-hole-mark.svg",
+      "use": "Mark at 128 px"
+    },
+    {
+      "path": "logo/png/square-hole-mark-16.png",
+      "kind": "png-mark",
+      "width": 16,
+      "height": 16,
+      "bytes": 353,
+      "sha256": "d9431ec06c002eb5bb062f0c2e0aee9a690756081d5b8a32624bea92460d1960",
+      "source": "logo/svg/square-hole-mark-16.svg",
+      "use": "Exactly 16 px (pixel-hinted drawing)"
+    },
+    {
+      "path": "logo/png/square-hole-mark-24.png",
+      "kind": "png-mark",
+      "width": 24,
+      "height": 24,
+      "bytes": 497,
+      "sha256": "467c4512295d7efee9dac2377564a18d33e76f0fd6ec5954091dd08775016508",
+      "source": "logo/svg/square-hole-mark-24.svg",
+      "use": "Exactly 24 px (pixel-hinted drawing)"
+    },
+    {
+      "path": "logo/png/square-hole-mark-256.png",
+      "kind": "png-mark",
+      "width": 256,
+      "height": 256,
+      "bytes": 37879,
+      "sha256": "b1f3b6093db1d9da9211d7437285164f4aea989c1fe4b455028ed4ad94204c44",
+      "source": "logo/svg/square-hole-mark.svg",
+      "use": "Mark at 256 px"
+    },
+    {
+      "path": "logo/png/square-hole-mark-32.png",
+      "kind": "png-mark",
+      "width": 32,
+      "height": 32,
+      "bytes": 844,
+      "sha256": "bc8e2248611b5ebea553b7d7c86937fa92f50646d09c01906894e42f8dcc30a9",
+      "source": "logo/svg/square-hole-mark-32.svg",
+      "use": "Exactly 32 px (pixel-hinted drawing)"
+    },
+    {
+      "path": "logo/png/square-hole-mark-48.png",
+      "kind": "png-mark",
+      "width": 48,
+      "height": 48,
+      "bytes": 3223,
+      "sha256": "87c9c4857081d8b72054e4c70201b6d86b6c7c13aafbf3a1a48ce63b794d8d90",
+      "source": "logo/svg/square-hole-mark.svg",
+      "use": "Mark at 48 px"
+    },
+    {
+      "path": "logo/png/square-hole-mark-512.png",
+      "kind": "png-mark",
+      "width": 512,
+      "height": 512,
+      "bytes": 118359,
+      "sha256": "fc8c1d48e49023be5a55977426598ac2feb70680df33201831f870c41035c103",
+      "source": "logo/svg/square-hole-mark.svg",
+      "use": "Mark at 512 px"
+    },
+    {
+      "path": "logo/png/square-hole-mark-64.png",
+      "kind": "png-mark",
+      "width": 64,
+      "height": 64,
+      "bytes": 4774,
+      "sha256": "d9eaa369eed505c23e63274c50d90338f34757cec4110c7afa2b97c051412eba",
+      "source": "logo/svg/square-hole-mark.svg",
+      "use": "Mark at 64 px"
+    },
+    {
+      "path": "logo/png/square-hole-mark-flat-1024.png",
+      "kind": "png-flat",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 17725,
+      "sha256": "70c50349193eb5e930629d6190940539f4c2bad7738f1bbdbcb0109abb528b52",
+      "source": "logo/svg/square-hole-mark-flat.svg",
+      "use": "One colour, lavender #A78BFA"
+    },
+    {
+      "path": "logo/png/square-hole-mark-flat-256.png",
+      "kind": "png-flat",
+      "width": 256,
+      "height": 256,
+      "bytes": 3659,
+      "sha256": "0ff432a1cbeaa7dbb2ca56d314073d10890d0e92060265bf6b1ca2480443bdbd",
+      "source": "logo/svg/square-hole-mark-flat.svg",
+      "use": "One colour, lavender #A78BFA"
+    },
+    {
+      "path": "logo/png/square-hole-mark-flat-64.png",
+      "kind": "png-flat",
+      "width": 64,
+      "height": 64,
+      "bytes": 800,
+      "sha256": "4f15d07e1e628d4e0fda286bd6843dcd4bfe45db619120beb365fcbe6ca8d1dd",
+      "source": "logo/svg/square-hole-mark-flat.svg",
+      "use": "One colour, lavender #A78BFA"
+    },
+    {
+      "path": "logo/png/square-hole-mark-mono-navy-1024.png",
+      "kind": "png-mono",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 17846,
+      "sha256": "90c91645c9b27c70b9cb29b216ec221864552cb949dec99211a66bbdd0e13016",
+      "source": "logo/svg/square-hole-mark-mono.svg",
+      "use": "Monochrome, #080D16"
+    },
+    {
+      "path": "logo/png/square-hole-mark-mono-navy-256.png",
+      "kind": "png-mono",
+      "width": 256,
+      "height": 256,
+      "bytes": 3710,
+      "sha256": "43a916a3feb968a19f0209b31d836482e50d49d4fda6f332e26a529563c55a94",
+      "source": "logo/svg/square-hole-mark-mono.svg",
+      "use": "Monochrome, #080D16"
+    },
+    {
+      "path": "logo/png/square-hole-mark-mono-white-1024.png",
+      "kind": "png-mono",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 15045,
+      "sha256": "7914813527292176f15952e29da1e3001ec59052dfc461156429d668a8172100",
+      "source": "logo/svg/square-hole-mark-mono.svg",
+      "use": "Monochrome, #FFFFFF"
+    },
+    {
+      "path": "logo/png/square-hole-mark-mono-white-256.png",
+      "kind": "png-mono",
+      "width": 256,
+      "height": 256,
+      "bytes": 3049,
+      "sha256": "aa88023447f9902dce3260a468c72700f87d9fc4a50828652ddd58f0d9cbe471",
+      "source": "logo/svg/square-hole-mark-mono.svg",
+      "use": "Monochrome, #FFFFFF"
+    },
+    {
+      "path": "logo/preview.png",
+      "kind": "preview",
+      "width": 1600,
+      "height": 4554,
+      "bytes": 1105762,
+      "sha256": "138d0cd49b9f2b91aaef27b963816df6abfe7770dbbc08ad296e57ec73364803",
+      "source": "scripts/lib/preview.mjs",
+      "use": "Review sheet only, not an asset"
+    },
+    {
+      "path": "logo/svg/square-hole-lockup-horizontal-mono.svg",
+      "kind": "svg-lockup",
+      "bytes": 5936,
+      "sha256": "6b51a78f85a74bdead9487e2349cea6495dd4010047549fedd020c7c8289e78a",
+      "source": "logo/svg/square-hole-mark*.svg + src/text-paths.json",
+      "use": "Lockup (mono)"
+    },
+    {
+      "path": "logo/svg/square-hole-lockup-horizontal-on-light.svg",
+      "kind": "svg-lockup",
+      "bytes": 7792,
+      "sha256": "28dea1351f75abe7d77dffb4912851ac0583f3c90b7a4404e0d482beb78cc461",
+      "source": "logo/svg/square-hole-mark*.svg + src/text-paths.json",
+      "use": "Lockup (light)"
+    },
+    {
+      "path": "logo/svg/square-hole-lockup-horizontal.svg",
+      "kind": "svg-lockup",
+      "bytes": 7795,
+      "sha256": "0fe8089204896ea8e9680612341cc9f96c2f84d3aa838208c99f9a9e0d2f6e4a",
+      "source": "logo/svg/square-hole-mark*.svg + src/text-paths.json",
+      "use": "Lockup (dark)"
+    },
+    {
+      "path": "logo/svg/square-hole-lockup-stacked-mono.svg",
+      "kind": "svg-lockup",
+      "bytes": 5746,
+      "sha256": "18d317bf329be95a8762cd966230893abacd495be1d1bcb05f41d627f9c121fc",
+      "source": "logo/svg/square-hole-mark*.svg + src/text-paths.json",
+      "use": "Lockup (mono)"
+    },
+    {
+      "path": "logo/svg/square-hole-lockup-stacked-on-light.svg",
+      "kind": "svg-lockup",
+      "bytes": 7602,
+      "sha256": "14f334b63f6cce9543e58a6977ee2980b577b9c9e75a8303b8e9c86a624d57e0",
+      "source": "logo/svg/square-hole-mark*.svg + src/text-paths.json",
+      "use": "Lockup (light)"
+    },
+    {
+      "path": "logo/svg/square-hole-lockup-stacked.svg",
+      "kind": "svg-lockup",
+      "bytes": 7605,
+      "sha256": "7fcbc3b6bf3bef529398518a23d5c73182403c86044d1f2e345720a8e8112bfd",
+      "source": "logo/svg/square-hole-mark*.svg + src/text-paths.json",
+      "use": "Lockup (dark)"
+    },
+    {
+      "path": "logo/svg/square-hole-wordmark-mono.svg",
+      "kind": "svg-wordmark",
+      "bytes": 5197,
+      "sha256": "7b160caf6425e9f5f7b5553bc19f7e48503828da66d36f1f352445f306a4639e",
+      "source": "src/text-paths.json",
+      "use": "Wordmark alone (mono)"
+    },
+    {
+      "path": "logo/svg/square-hole-wordmark-on-light.svg",
+      "kind": "svg-wordmark",
+      "bytes": 5198,
+      "sha256": "c0c91d5b4bf342607ecf9e313f73276857ce5096a26ab4dc6e7c482fe8cc54f5",
+      "source": "src/text-paths.json",
+      "use": "Wordmark alone (light)"
+    },
+    {
+      "path": "logo/svg/square-hole-wordmark.svg",
+      "kind": "svg-wordmark",
+      "bytes": 5201,
+      "sha256": "f15d4becaec1bce2205cc7725c92e89d89efd204e518115d71c74492eeb040dc",
+      "source": "src/text-paths.json",
+      "use": "Wordmark alone (dark)"
+    }
+  ]
+}
