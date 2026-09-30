@@ -197,7 +197,7 @@ export function socialPreviewBranding() {
     cap: 92,
     lines: [
       { id: 'label-brand-kit', cap: 21, advance: 56, fill: COLOURS.accent, above: true },
-      { id: 'tagline-alt', cap: 33, advance: 74, fill: COLOURS.textSecondary },
+      { id: 'tagline', cap: 33, advance: 76, fill: COLOURS.textSecondary },
       { width: rowWidth, cap: 40, advance: 88, render: swatchRow, tail: 0 },
     ],
   });

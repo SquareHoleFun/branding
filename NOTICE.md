@@ -1,7 +1,7 @@
 # Notice: the Square Hole name and marks
 
-"Square Hole", the Square Hole mark (the rounded tile with the glowing square hole), the wordmark, the taglines
-"Different shapes. Same hole." and "Many shapes. One hole.", and the FIT token icon are the name and marks of the
+"Square Hole", the Square Hole mark (the rounded tile with the glowing square hole), the wordmark, the tagline
+"Different shapes. Same hole.", and the FIT token icon are the name and marks of the
 Square Hole project. They are **not registered** trademarks.
 
 **Using them to refer to Square Hole is welcome.** You may use the files in this repository, unchanged, to link to or

@@ -16,9 +16,7 @@ here may be used to refer to Square Hole; read [NOTICE.md](NOTICE.md) first. The
 - **Square Hole**: two words, capital S and H. Not "SquareHole", "Squarehole" or "SQUARE HOLE" in running text.
   Domains and handles are lower case: `squarehole.fun`, `squarehole.xyz`, `squarehole.fit`.
 - **FIT** is the token. Write "FIT"; "$FIT" only as a cashtag in running text, never on the icon.
-- Taglines, in sentence case with both full stops:
-  - **"Different shapes. Same hole."** (primary)
-  - **"Many shapes. One hole."** (alternate, for variety; do not use both in one place)
+- Tagline, in sentence case with both full stops: **"Different shapes. Same hole."** It is the only tagline.
 
 The joke is the brand: in the toy, only the cube belongs in the square hole, and here every shape goes in anyway.
 

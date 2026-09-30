@@ -41,7 +41,6 @@ FONT_SHA256 = "153fc85b70298beeb1d61a5f723331649e7f23bb77302a66e61cb3e2fbdb5e79"
 TEXTS = {
     "wordmark": ("Square Hole", 750, -0.02, ""),
     "tagline": ("Different shapes. Same hole.", 550, -0.005, ""),
-    "tagline-alt": ("Many shapes. One hole.", 550, -0.005, ""),
     "label-brand-kit": ("BRAND KIT", 700, 0.14, ""),
     "label-fit": ("FIT", 700, 0.14, ""),
     "domains": ("squarehole.fun · squarehole.xyz · squarehole.fit", 550, 0.0, "-liga,-dlig"),

@@ -46,8 +46,8 @@
       "kind": "png-github",
       "width": 1280,
       "height": 640,
-      "bytes": 266534,
-      "sha256": "44f15910ecf5903487da6001cdbdbd08cd19a978bd89662841578d030293cff1",
+      "bytes": 268171,
+      "sha256": "496009195890cba596bff200f7e1e0b32f6a28e1cc6c149a75074d17788bc926",
       "source": "scripts/lib/compose.mjs",
       "use": "Social preview of the branding repository"
     },
@@ -370,8 +370,8 @@
       "kind": "preview",
       "width": 1600,
       "height": 4554,
-      "bytes": 1105762,
-      "sha256": "138d0cd49b9f2b91aaef27b963816df6abfe7770dbbc08ad296e57ec73364803",
+      "bytes": 1106237,
+      "sha256": "18de5010b9f3efed91d4268a30293ef29bb550ff83f92b1f8689d6c6ccc64436",
       "source": "scripts/lib/preview.mjs",
       "use": "Review sheet only, not an asset"
     },
